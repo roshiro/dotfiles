@@ -1,0 +1,6 @@
+*.swp
+*.swo
+*.pid
+.DS_Store
+Gemfile
+spec/spec_helper.rb
