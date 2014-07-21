@@ -30,3 +30,10 @@ Symlink .gitignore
 
 Symlink .gemrc
   ln -nfs ~/dotfiles/gemrc .gemrc
+
+
+Enabling Git Auto-Completion
+-----
+
+add the following line to `~/.bash_profile`
+`source ~/dotfiles/.git-completion.sh`
