@@ -1,6 +1,6 @@
 [user]
-  name = Abe Petrillo
-  email = abe.petrillo@gmail.com 
+  name = Rafael Oshiro
+  email = rafael.oshiro@sage.com 
 [core]
   autocrlt = input
   safecrlt = true
@@ -16,7 +16,7 @@
   type = cat-file -t
   dump = cat-file -p
 [github]
-  user = abepetrillo
+  user = rafael.oshiro
 [color]
   branch = auto
   diff = auto
