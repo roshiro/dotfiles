@@ -7,6 +7,7 @@ silent! call pathogen#runtime_append_all_bundles()
 
 syntax enable                     " Turn on syntax highlighting.
 filetype plugin indent on         " Turn on file type detection.
+filetype plugin on                " Turn on Nerdtree commmenter plugin
 
 runtime macros/matchit.vim        " Load the matchit plugin.
 
@@ -78,7 +79,8 @@ set spelllang=en_gb
 " Or use vividchalk
 set t_Co=256
 "colorscheme molokai " topfunky-light
-colorscheme railscasts
+colorscheme railscasts 
+hi Visual term=reverse cterm=reverse guibg=Grey
 
 " Tab mappings.
 map <leader>tt :tabnew<cr>
